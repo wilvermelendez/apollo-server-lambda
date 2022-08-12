@@ -1,4 +1,4 @@
-import { ApolloServer, gql } from "apollo-server-lambda";
+import { ApolloServer } from "apollo-server-lambda";
 import { ApolloServerPluginLandingPageGraphQLPlayground } from "apollo-server-core";
 import { resolvers, typeDefs } from "./graphql";
 
